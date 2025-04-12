@@ -31,4 +31,5 @@ export default defineStackbitConfig({
             }
         })
     ]
+    modelExtensions: [{ name: "page", type: "page", urlPath: "/{slug}" }]
 });
