@@ -30,6 +30,6 @@ export default defineStackbitConfig({
                 publicPath: '/'
             }
         })
-    ]
+    ],
     modelExtensions: [{ name: "page", type: "page", urlPath: "/{slug}" }]
 });
